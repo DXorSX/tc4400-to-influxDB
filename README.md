@@ -5,7 +5,7 @@ Gather DOCSIS Data from a Technicolor TC4400 Cable Modem and send to influxDB
 
 ### Setup influxDB as Docker instance
 
-'docker run --name influxDB -v /PATH/influxdbv2:/root/.influxdbv2 -p 8086:8086 quay.io/influxdb/influxdb:v2.0.3 --reporting-disabled' 
+`docker run --name influxDB -v /PATH/influxdbv2:/root/.influxdbv2 -p 8086:8086 quay.io/influxdb/influxdb:v2.0.3 --reporting-disabled`
 
 Got to http://hostname:8086, create Org, a Bucket and a Token
 
