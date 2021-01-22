@@ -14,6 +14,7 @@ Got to http://hostname:8086, create Org, a Bucket and a Token
 Install the needed python3 libraries via 'pip3'
 
 'sudo pip3 install pandas'
+
 'sudo pip3 install influxdb-client'
 
 Edit the script and change values for the influxDB Connection and the IP Adress of your TC4400 Cable Modem.
